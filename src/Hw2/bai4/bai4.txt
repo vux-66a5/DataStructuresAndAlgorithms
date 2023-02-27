@@ -1,0 +1,60 @@
+
+Với mảng 10 phần tử: 
+
+Bubble Sort: 
+Số lần đổi chỗ trung bình trong 10 lần chạy: 22.6
+Số lần so sánh trung bình trong 10 lần chạy: 45.0
+Thời gian chạy trung bình 10 lần (microsecond): 7.3498
+
+Selection Sort: 
+Số lần đổi chỗ trung bình trong 10 lần chạy: 7.6
+Số lần so sánh trung bình trong 10 lần chạy: 45.0
+Thời gian chạy trung bình 10 lần (microsecond): 4.973700000000001
+
+Insertion Sort: 
+Số lần đổi chỗ trung bình trong 10 lần chạy: 22.6
+Số lần so sánh trung bình trong 10 lần chạy: 31.6
+Thời gian chạy trung bình 10 lần (microsecond): 4.6861999999999995
+-------------------------------------------------------------------------------
+
+Với mảng 20 phần tử: 
+
+Bubble Sort: 
+Số lần đổi chỗ trung bình trong 10 lần chạy: 197.0
+Số lần so sánh trung bình trong 10 lần chạy: 380.0
+Thời gian chạy trung bình 10 lần (microsecond): 44.655499999999996
+
+Selection Sort: 
+Số lần đổi chỗ trung bình trong 10 lần chạy: 33.8
+Số lần so sánh trung bình trong 10 lần chạy: 380.0
+Thời gian chạy trung bình 10 lần (microsecond): 29.562400000000004
+
+Insertion Sort: 
+Số lần đổi chỗ trung bình trong 10 lần chạy: 197.0
+Số lần so sánh trung bình trong 10 lần chạy: 235.0
+Thời gian chạy trung bình 10 lần (microsecond): 26.306199999999997
+-------------------------------------------------------------------------------
+
+Với mảng 50 phần tử: 
+
+Bubble Sort: 
+Số lần đổi chỗ trung bình trong 10 lần chạy: 3044.6
+Số lần so sánh trung bình trong 10 lần chạy: 6125.0
+Thời gian chạy trung bình 10 lần (microsecond): 645.0407000000001
+
+Selection Sort: 
+Số lần đổi chỗ trung bình trong 10 lần chạy: 226.0
+Số lần so sánh trung bình trong 10 lần chạy: 6125.0
+Thời gian chạy trung bình 10 lần (microsecond): 391.4761000000001
+
+Insertion Sort: 
+Số lần đổi chỗ trung bình trong 10 lần chạy: 3044.6
+Số lần so sánh trung bình trong 10 lần chạy: 3289.6
+Thời gian chạy trung bình 10 lần (microsecond): 371.64799999999997
+
+Kết luận: 
+- BubbleSort luôn có thời gian chạy lâu nhất
+- SelectionSort thưc hiện số lần đổi chỗ ít nhất
+- InsertionSort nhanh nhất khi đầu vào càng lớn, số lần so sánh ít nhất
+---> Tiết kiệm thời gian thì sử dụng InsertionSort, tiết kiệm bộ nhớ thì sử dụng SelectionSort
+
